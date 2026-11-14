@@ -1,0 +1,24 @@
+
+flowchart TD
+    A["ERP System<br/>Customers, Orders, Products"]
+    B["Inventory / WMS<br/>Stock, Warehouses, Movements"]
+    C["Manufacturing / MES<br/>Production, Work Orders"]
+    D["Procurement<br/>Suppliers, Purchase Orders"]
+    E["Distribution<br/>Shipments, Deliveries"]
+
+    A --> F["Fabric Data Factory Pipelines"]
+    B --> F
+    C --> F
+    D --> F
+    E --> F
+
+    F --> G["BRONZE LAKEHOUSE<br/>Raw Delta Tables"]
+    G --> H["Fabric Notebooks<br/>PySpark / Spark SQL"]
+    H --> I["SILVER LAKEHOUSE<br/>Cleaned and Conformed Delta Tables"]
+    I --> J["Fabric Notebooks<br/>Business Transformations"]
+    J --> K["GOLD LAKEHOUSE<br/>Dimensional Data Model"]
+    K --> L["Power BI Semantic Model<br/>Direct Lake"]
+    L --> M["Manufacturing Analytics Dashboard"]
+
+    N["Data Quality Checks<br/>Validation / Reconciliation"] -.-> H
+    N -.-> J
