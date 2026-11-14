@@ -1,6 +1,10 @@
 # Zaryn Data Engineering
+Turning business data into actionable intelligence.
+
+Featured Project
 
 ## Manufacturing Analytics with Microsoft Fabric
+Data Integration | Automation | Analytics
 
 **Company:** Zaryn Data Engineering
 
