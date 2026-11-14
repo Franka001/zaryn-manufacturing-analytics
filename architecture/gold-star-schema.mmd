@@ -1,0 +1,24 @@
+
+flowchart TD
+    C["DimCustomer"]
+    P["DimProduct"]
+    D["DimDate"]
+    W["DimWarehouse"]
+    S["DimSupplier"]
+
+    C --> FS["FactSales"]
+    P --> FS
+    D --> FS
+
+    P --> FI["FactInventoryMovement"]
+    W --> FI
+    D --> FI
+
+    P --> FP["FactProduction"]
+    W --> FP
+    D --> FP
+    S --> FP
+
+    P --> FSH["FactShipment"]
+    W --> FSH
+    D --> FSH
