@@ -36,7 +36,7 @@ An end-to-end manufacturing analytics solution demonstrating how Microsoft Fabri
 
 ### Architecture
 
-The solution follows the Medallion Architecture:
+The solution follows the Medallion Architecture and Metadata-driven architecture:
 
 - Bronze: Raw data ingestion.
 - Silver: Data cleaning and transformation.
