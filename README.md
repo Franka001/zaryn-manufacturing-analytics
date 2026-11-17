@@ -1,57 +1,79 @@
 # Zaryn Data Engineering
 Turning business data into actionable intelligence.
 
-Featured Project
+### Microsoft Data Engineering for Manufacturing & Wholesale Distribution
 
-## Manufacturing Analytics with Microsoft Fabric
-Data Integration | Automation | Analytics
+I help manufacturers and wholesale distributors connect operational
+systems, build reliable data pipelines, and deliver trusted reporting
+with Microsoft Fabric and Azure.
 
-**Company:** Zaryn Data Engineering
+## Business problems I help solve
 
-### About Zaryn Data Engineering
+- Production, inventory, purchasing, and sales data spread across systems
+- Manual spreadsheet consolidation and recurring reporting work
+- Inconsistent KPI definitions across departments
+- Unreliable data pipelines and limited visibility into failures
+- Legacy SQL Server and SSIS integrations that need improvement
+- Operational exceptions that require automated follow-up
 
-Zaryn Data Engineering helps businesses turn disconnected operational data into reliable, actionable business insights through data engineering, integration, automation, and analytics solutions.
+## Services
 
-Our focus is on helping manufacturing and wholesale distribution businesses improve operational visibility, streamline reporting, and make better data-driven decisions.
+### Data Integration & Engineering
+Data ingestion, transformation, validation, and orchestration
+across databases, APIs, and file-based sources.
 
-### Featured Project: Manufacturing Analytics
+### Microsoft Fabric & Azure Analytics
+Lakehouse and warehouse solutions, curated data models,
+and Power BI reporting.
 
-An end-to-end manufacturing analytics solution demonstrating how Microsoft Fabric, SQL Server, PySpark, and Power BI can bring operational data together.
+### SQL Server & SSIS Modernization
+Assessment, optimization, documentation, and phased modernization
+of existing data integration workloads.
 
-### Business Challenges Addressed
+### Operational Workflow Automation
+Notifications, approvals, and exception-handling workflows
+using Power Automate and Azure Logic Apps.
 
-- Inventory visibility and inventory turnover.
-- Production performance and delays.
-- Supplier and purchasing performance.
-- Order fulfillment and distribution.
-- Automated reporting and operational analytics.
+## Featured Solutions
 
-### Technology Stack
+| Solution | Business focus | Project |
+|---|---|---|
+| Manufacturing Operations Analytics | Production, downtime, scrap, and reporting consistency | [Repository link] |
+| Distribution Inventory & Fulfillment | Inventory availability, open orders, and fulfillment performance | [Repository link] |
+| SQL Server & SSIS Modernization | Reliable integration and a documented modernization path | [Repository link] |
 
-- Microsoft Fabric
-- Azure Data Factory
-- SQL Server
-- SSIS
-- Power Automate
-- Azure Data Lake
-- Azure Logic App
-- PySpark and Python
-- Power BI
+## Technology Focus
 
-### Architecture
+Microsoft Fabric | Azure Data Factory | SQL Server | SSIS
+Azure Data Lake Storage | PySpark | Python | Power BI
+Power Automate | Azure Logic Apps
 
-The solution follows the Medallion Architecture and Metadata-driven architecture:
+## Delivery Approach
 
-- Bronze: Raw data ingestion.
-- Silver: Data cleaning and transformation.
-- Gold: Business-ready dimensional models.
+Discovery → Source Assessment → Pilot → Validation → Deployment → Handover
 
-### Project Status
+Deliverables are defined for each engagement and may include
+architecture documentation, tested pipelines, data models,
+monitoring, and operating runbooks.
 
-Currently in development. This portfolio project uses synthetic data and is intended to demonstrate Zaryn Data Engineering's technical capabilities.
+## Project Transparency
+
+Portfolio demonstrations are clearly labeled.
+Synthetic data, assumptions, implementation status, and limitations
+are documented in each repository.
+
+## Discuss a Project
+
+Contact: [Business email]
+Website: [Website, if available]
+LinkedIn: [LinkedIn URL]
+
+For an initial discussion, include your source systems,
+main reporting or integration challenge, and desired timeline.
 
 ### Contact
 
 Zaryn Data Engineering
+admin@zaryndata.onmicrosoft.com
 
 *Data Integration | Automation | Analytics*
