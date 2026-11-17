@@ -64,16 +64,9 @@ are documented in each repository.
 
 ## Discuss a Project
 
-Contact: [Business email]
-Website: [Website, if available]
-LinkedIn: [LinkedIn URL]
+Contact: admin@zaryndata.onmicrosoft.com
+Website: NA
+LinkedIn: NA
 
-For an initial discussion, include your source systems,
-main reporting or integration challenge, and desired timeline.
-
-### Contact
-
-Zaryn Data Engineering
-admin@zaryndata.onmicrosoft.com
 
 *Data Integration | Automation | Analytics*
